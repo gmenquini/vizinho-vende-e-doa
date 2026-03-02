@@ -3,300 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vizinho Vende e Doa — Política de Privacidade e Termos de Uso</title>
+  <title>Vizinho Vende e Doa</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; line-height: 1.7; }
-    .header { background: #2DB67D; padding: 40px 20px; text-align: center; color: white; }
-    .header h1 { font-size: 24px; margin-bottom: 4px; }
-    .header p { opacity: 0.8; font-size: 14px; }
-    .container { max-width: 800px; margin: 0 auto; padding: 20px; }
-    .section { background: white; border-radius: 12px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-    .section h2 { color: #2DB67D; font-size: 20px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #e8f5e9; }
-    .section h3 { font-size: 16px; margin-top: 16px; margin-bottom: 8px; color: #555; }
-    .section p, .section li { font-size: 14px; margin-bottom: 8px; }
-    .section ul { padding-left: 20px; }
-    .section li { margin-bottom: 4px; }
-    .tabs { display: flex; gap: 8px; margin: 20px 0; }
-    .tab { flex: 1; padding: 12px; text-align: center; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 14px; border: 2px solid #2DB67D; color: #2DB67D; background: white; }
-    .tab.active { background: #2DB67D; color: white; }
-    .content { display: none; }
-    .content.active { display: block; }
-    .footer { text-align: center; padding: 30px 20px; font-size: 12px; color: #999; }
-    .highlight { background: #e8f5e9; border-radius: 8px; padding: 12px 16px; margin: 12px 0; border-left: 4px solid #2DB67D; }
-    .highlight p { margin: 0; font-weight: 600; }
-    .contact { background: #fff3e0; border-radius: 8px; padding: 12px 16px; margin: 12px 0; border-left: 4px solid #ff9800; }
-    @media (max-width: 600px) { .container { padding: 12px; } .section { padding: 16px; } }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 24px;
+      padding: 48px 32px;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+    .icon { font-size: 64px; margin-bottom: 16px; }
+    .title { font-size: 24px; font-weight: 800; color: #1a1a1a; margin-bottom: 12px; }
+    .subtitle { font-size: 15px; color: #666; line-height: 1.7; margin-bottom: 24px; }
+    .footer { font-size: 13px; color: #999; }
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>🏘️ Vizinho Vende e Doa</h1>
-    <p>Compre e venda no seu bairro</p>
+  <div class="card">
+    <div class="icon">✅</div>
+    <h1 class="title">Email confirmado!</h1>
+    <p class="subtitle">
+      Sua conta foi verificada com sucesso.<br><br>
+      Pode fechar esta página e voltar ao app para fazer login.
+    </p>
+    <div class="footer">🏘️ Vizinho Vende e Doa</div>
   </div>
-  <div class="container">
-    <div class="tabs">
-      <div class="tab active" onclick="showTab('privacy')">🔒 Privacidade</div>
-      <div class="tab" onclick="showTab('terms')">📋 Termos de Uso</div>
-    </div>
-
-    <!-- POLÍTICA DE PRIVACIDADE -->
-    <div id="privacy" class="content active">
-      <div class="section">
-        <h2>🔒 Política de Privacidade</h2>
-        <p><strong>Última atualização:</strong> 19 de fevereiro de 2026</p>
-        <p>O app Vizinho Vende e Doa ("nós", "nosso") respeita sua privacidade e se compromete a proteger seus dados pessoais. Esta política explica quais dados coletamos, como os usamos e seus direitos.</p>
-      </div>
-
-      <div class="section">
-        <h2>1. Dados que coletamos</h2>
-        <h3>1.1. Dados fornecidos por você:</h3>
-        <ul>
-          <li><strong>Número de telefone</strong> — para criar sua conta e autenticação via SMS</li>
-          <li><strong>Nome</strong> — exibido no seu perfil e anúncios</li>
-          <li><strong>Bairro</strong> — para mostrar anúncios próximos</li>
-          <li><strong>Fotos</strong> — imagens dos produtos que você publica</li>
-          <li><strong>Mensagens</strong> — conversas com outros usuários dentro do app</li>
-        </ul>
-        <h3>1.2. Dados coletados automaticamente:</h3>
-        <ul>
-          <li><strong>Localização aproximada</strong> — via GPS do dispositivo, para calcular distância até os anúncios. Nunca compartilhamos sua localização exata com outros usuários.</li>
-          <li><strong>Dados de uso</strong> — páginas visitadas, buscas realizadas, cliques, tempo de uso</li>
-          <li><strong>Dados do dispositivo</strong> — modelo, sistema operacional, identificador único</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>2. Como usamos seus dados</h2>
-        <ul>
-          <li>Exibir anúncios próximos à sua localização</li>
-          <li>Permitir comunicação entre compradores e vendedores</li>
-          <li>Enviar notificações sobre novos itens, mensagens e atualizações</li>
-          <li>Melhorar o app com base em dados de uso agregados</li>
-          <li>Exibir anúncios publicitários relevantes (via Google AdMob)</li>
-          <li>Prevenir fraudes e garantir segurança da plataforma</li>
-          <li>Gerar relatórios analíticos internos (dados anonimizados)</li>
-        </ul>
-        <div class="highlight">
-          <p>🛡️ Nunca vendemos seus dados pessoais a terceiros.</p>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>3. Compartilhamento de dados</h2>
-        <p>Compartilhamos dados apenas com:</p>
-        <ul>
-          <li><strong>Google AdMob</strong> — para exibição de anúncios publicitários. O AdMob pode coletar identificadores de publicidade e dados de uso. <a href="https://policies.google.com/privacy" target="_blank">Política de privacidade do Google</a>.</li>
-          <li><strong>Supabase</strong> — nosso provedor de banco de dados e autenticação, com servidores na América do Sul. <a href="https://supabase.com/privacy" target="_blank">Política de privacidade do Supabase</a>.</li>
-          <li><strong>Twilio</strong> — para envio de SMS de verificação. <a href="https://www.twilio.com/legal/privacy" target="_blank">Política de privacidade do Twilio</a>.</li>
-          <li><strong>Autoridades legais</strong> — quando exigido por lei ou ordem judicial.</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>4. Publicidade</h2>
-        <p>Exibimos anúncios de terceiros através do Google AdMob para manter o app gratuito. O AdMob pode usar identificadores de dispositivo e dados de uso para personalizar anúncios. Você pode optar por não receber anúncios personalizados nas configurações do seu dispositivo.</p>
-      </div>
-
-      <div class="section">
-        <h2>5. Armazenamento e segurança</h2>
-        <ul>
-          <li>Seus dados são armazenados em servidores seguros na região de São Paulo (Brasil)</li>
-          <li>Utilizamos criptografia em trânsito (HTTPS/TLS) e em repouso</li>
-          <li>Senhas são armazenadas com hash criptográfico (nunca em texto puro)</li>
-          <li>Acesso aos dados é restrito e monitorado</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>6. Seus direitos (LGPD)</h2>
-        <p>De acordo com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você tem direito a:</p>
-        <ul>
-          <li><strong>Acesso</strong> — saber quais dados temos sobre você</li>
-          <li><strong>Correção</strong> — corrigir dados incompletos ou incorretos</li>
-          <li><strong>Exclusão</strong> — solicitar a exclusão de seus dados pessoais</li>
-          <li><strong>Portabilidade</strong> — receber seus dados em formato legível</li>
-          <li><strong>Revogação</strong> — retirar seu consentimento a qualquer momento</li>
-          <li><strong>Oposição</strong> — se opor ao tratamento de dados</li>
-        </ul>
-        <p>Para exercer esses direitos, use a opção "Excluir minha conta" no app ou entre em contato conosco.</p>
-        <div class="highlight">
-          <p>🗑️ Ao excluir sua conta, todos os seus dados pessoais, anúncios e mensagens são permanentemente removidos em até 30 dias.</p>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>7. Dados de menores</h2>
-        <p>O Vizinho Vende e Doa é destinado a maiores de 18 anos. Não coletamos intencionalmente dados de menores de 18 anos. Se identificarmos conta de menor, ela será excluída.</p>
-      </div>
-
-      <div class="section">
-        <h2>8. Cookies e tecnologias similares</h2>
-        <p>Utilizamos tecnologias de rastreamento para melhorar a experiência do usuário e para fins analíticos. Isso inclui identificadores de dispositivo e SDKs de terceiros (AdMob).</p>
-      </div>
-
-      <div class="section">
-        <h2>9. Alterações nesta política</h2>
-        <p>Podemos atualizar esta política periodicamente. Notificaremos sobre mudanças significativas através do app. O uso continuado do app após alterações constitui aceitação da nova política.</p>
-      </div>
-    </div>
-
-    <!-- TERMOS DE USO -->
-    <div id="terms" class="content">
-      <div class="section">
-        <h2>📋 Termos de Uso</h2>
-        <p><strong>Última atualização:</strong> 19 de fevereiro de 2026</p>
-        <p>Ao usar o app Vizinho Vende e Doa, você concorda com estes termos. Leia com atenção.</p>
-      </div>
-
-      <div class="section">
-        <h2>1. Sobre o app</h2>
-        <p>O Vizinho Vende e Doa é uma plataforma que conecta vizinhos para compra, venda, doação e troca de produtos e serviços em âmbito local. O app é apenas um espaço de conexão entre usuários.</p>
-        <div class="highlight">
-          <p>⚠️ Não somos parte nas transações entre usuários. Não realizamos vendas, intermediamos pagamentos, garantimos qualidade de produtos ou nos responsabilizamos por qualquer negociação.</p>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>2. Cadastro e conta</h2>
-        <ul>
-          <li>É necessário ter 18 anos ou mais para criar uma conta</li>
-          <li>Cada pessoa pode ter apenas uma conta</li>
-          <li>O cadastro é feito via número de telefone celular</li>
-          <li>Você é responsável por manter a segurança da sua conta</li>
-          <li>Informações falsas podem resultar em bloqueio da conta</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>3. Regras de publicação</h2>
-        <h3>3.1. É permitido publicar:</h3>
-        <ul>
-          <li>Produtos novos ou usados para venda</li>
-          <li>Itens para doação gratuita</li>
-          <li>Comida caseira (respeitando legislação local)</li>
-          <li>Pets para adoção (somente doação, venda proibida)</li>
-          <li>Pets perdidos ou encontrados</li>
-          <li>Pedidos do que você precisa comprar</li>
-        </ul>
-        <h3>3.2. É proibido publicar:</h3>
-        <ul>
-          <li>Armas de fogo, munições ou explosivos</li>
-          <li>Drogas, substâncias ilegais ou medicamentos controlados</li>
-          <li>Documentos falsos ou roubados</li>
-          <li>Produtos falsificados ou contrabandeados</li>
-          <li>Conteúdo sexual, pornográfico ou que explore menores</li>
-          <li>Animais para venda (somente doação é permitida)</li>
-          <li>Produtos que violem leis locais, estaduais ou federais</li>
-          <li>Spam, publicidade enganosa ou esquemas fraudulentos</li>
-        </ul>
-        <p>Anúncios que violem estas regras serão removidos e o usuário poderá ser bloqueado.</p>
-      </div>
-
-      <div class="section">
-        <h2>4. Conduta do usuário</h2>
-        <ul>
-          <li>Trate outros usuários com respeito</li>
-          <li>Não envie mensagens ofensivas, ameaçadoras ou discriminatórias</li>
-          <li>Não tente aplicar golpes ou fraudes</li>
-          <li>Não solicite pagamento antecipado (Pix, transferência) antes da entrega</li>
-          <li>Não crie múltiplas contas</li>
-          <li>Não use o app para fins ilegais</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>5. Moderação e denúncias</h2>
-        <ul>
-          <li>Qualquer usuário pode denunciar anúncios ou comportamentos suspeitos</li>
-          <li>Anúncios com 3 denúncias entram em supervisão automática</li>
-          <li>Anúncios com 5 denúncias são bloqueados automaticamente</li>
-          <li>Reservamo-nos o direito de remover conteúdo e bloquear usuários a qualquer momento</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>6. Segurança nas transações</h2>
-        <div class="highlight">
-          <p>🛡️ Dicas de segurança obrigatórias:</p>
-        </div>
-        <ul>
-          <li>NUNCA faça Pix ou transferência antes de receber o produto</li>
-          <li>Encontre-se SEMPRE em local público e movimentado</li>
-          <li>Confira o produto ANTES de pagar</li>
-          <li>Desconfie de preços muito abaixo do mercado</li>
-          <li>Prefira pagamento na entrega, em dinheiro ou Pix presencial</li>
-        </ul>
-        <p>O Vizinho Vende e Doa não se responsabiliza por perdas financeiras decorrentes de transações entre usuários.</p>
-      </div>
-
-      <div class="section">
-        <h2>7. Planos e pagamentos</h2>
-        <ul>
-          <li><strong>Gratuito:</strong> até 10 anúncios ativos simultâneos, com publicidade</li>
-          <li><strong>Pro (R$ 4,90/mês):</strong> anúncios ilimitados, notificação prioritária de doações, sem anúncios</li>
-          <li><strong>Loja (R$ 29,90/mês):</strong> selo verificado, destaque nos resultados, painel de métricas</li>
-          <li>Boosts podem ser adquiridos individualmente (R$ 2,90/cada)</li>
-          <li>Pagamentos são processados pela App Store / Google Play</li>
-          <li>Cancelamentos seguem as políticas da respectiva loja</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>8. Propriedade intelectual</h2>
-        <p>Todo o conteúdo do app (design, código, marca, ícones) é propriedade do Vizinho Vende e Doa. Fotos e textos dos anúncios são de responsabilidade dos respectivos usuários.</p>
-      </div>
-
-      <div class="section">
-        <h2>9. Limitação de responsabilidade</h2>
-        <ul>
-          <li>O app é fornecido "como está", sem garantias de disponibilidade ininterrupta</li>
-          <li>Não somos responsáveis por transações entre usuários</li>
-          <li>Não garantimos a veracidade das informações publicadas por usuários</li>
-          <li>Não somos responsáveis por danos diretos ou indiretos decorrentes do uso do app</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>10. Encerramento</h2>
-        <p>Podemos suspender ou encerrar sua conta a qualquer momento, com ou sem aviso prévio, caso haja violação destes termos. Você pode excluir sua conta a qualquer momento através das configurações do app.</p>
-      </div>
-
-      <div class="section">
-        <h2>11. Legislação aplicável</h2>
-        <p>Estes termos são regidos pelas leis da República Federativa do Brasil. Qualquer disputa será resolvida no foro da comarca de São Paulo, SP.</p>
-      </div>
-
-      <div class="section">
-        <h2>12. Alterações nos termos</h2>
-        <p>Podemos modificar estes termos a qualquer momento. Mudanças significativas serão comunicadas através do app. O uso continuado após alterações constitui aceitação dos novos termos.</p>
-      </div>
-    </div>
-
-    <!-- CONTATO -->
-    <div class="section">
-      <h2>📬 Contato</h2>
-      <div class="contact">
-        <p>📧 Email: contato@vizinhovende.app</p>
-        <p>📱 WhatsApp: (11) 99999-9999</p>
-        <p>📍 São Paulo, SP — Brasil</p>
-      </div>
-      <p style="font-size: 12px; color: #999; margin-top: 8px;">Para solicitações de exclusão de dados (LGPD), envie email com o assunto "Exclusão de Dados" informando o número de telefone cadastrado.</p>
-    </div>
-
-    <div class="footer">
-      <p>🏘️ Vizinho Vende e Doa © 2026 — Todos os direitos reservados</p>
-      <p>Compre e venda no seu bairro</p>
-    </div>
-  </div>
-
-  <script>
-    function showTab(tab) {
-      document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
-      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-      document.getElementById(tab).classList.add('active');
-      event.target.classList.add('active');
-    }
-  </script>
 </body>
 </html>
