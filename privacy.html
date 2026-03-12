@@ -6,34 +6,79 @@
   <title>Política de Privacidade - Vizinho Vende e Doa</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8faf8; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
-    .card { background: #fff; border-radius: 24px; padding: 32px; max-width: 600px; width: 100%; box-shadow: 0 4px 24px rgba(0,0,0,0.08); text-align: left; }
-    h1 { font-size: 20px; margin-bottom: 16px; }
-    h2 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; }
-    p, li { font-size: 14px; color: #444; line-height: 1.6; }
-    ul { padding-left: 20px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; line-height: 1.7; }
+    .container { max-width: 700px; margin: 0 auto; padding: 40px 20px; }
+    h1 { color: #2DB67D; font-size: 28px; margin-bottom: 8px; }
+    .date { color: #999; font-size: 14px; margin-bottom: 32px; }
+    h2 { color: #2DB67D; font-size: 20px; margin-top: 28px; margin-bottom: 12px; }
+    p { margin-bottom: 14px; }
+    ul { margin: 0 0 14px 24px; }
+    li { margin-bottom: 6px; }
+    .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #999; font-size: 13px; }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>🔒 Política de Privacidade</h1>
-    <p><strong>Vizinho Vende e Doa</strong> — Última atualização: Fevereiro 2026</p>
-    <h2>1. Dados coletados</h2>
+  <div class="container">
+    <h1>Politica de Privacidade</h1>
+    <p class="date">Vizinho Vende e Doa — Atualizado em marco de 2026</p>
+
+    <h2>1. Dados que coletamos</h2>
+    <p>Para o funcionamento do app, coletamos:</p>
     <ul>
-      <li>Nome, email e número de WhatsApp (cadastro)</li>
-      <li>Localização aproximada (para mostrar anúncios próximos)</li>
-      <li>Fotos dos anúncios publicados</li>
+      <li><strong>Email e senha</strong> — para criar sua conta</li>
+      <li><strong>Nome</strong> — para identificacao no app</li>
+      <li><strong>Numero de WhatsApp</strong> — para contato entre compradores e vendedores</li>
+      <li><strong>Localizacao aproximada</strong> — para mostrar anuncios proximos a voce</li>
+      <li><strong>Fotos dos anuncios</strong> — enviadas voluntariamente pelo usuario</li>
     </ul>
-    <h2>2. Como usamos</h2>
-    <p>Seus dados são usados exclusivamente para o funcionamento do app: exibir anúncios, permitir contato entre compradores e vendedores, e autenticar sua conta.</p>
+
+    <h2>2. Como usamos seus dados</h2>
+    <p>Seus dados sao usados exclusivamente para:</p>
+    <ul>
+      <li>Permitir a publicacao e visualizacao de anuncios</li>
+      <li>Facilitar o contato entre vizinhos via WhatsApp</li>
+      <li>Mostrar anuncios relevantes por proximidade geografica</li>
+      <li>Moderar conteudo e prevenir fraudes</li>
+    </ul>
+
     <h2>3. Compartilhamento</h2>
-    <p>Não vendemos nem compartilhamos seus dados com terceiros. Seu número de WhatsApp é visível apenas nos seus anúncios ativos.</p>
-    <h2>4. Armazenamento</h2>
-    <p>Dados armazenados com segurança no Supabase (servidores em São Paulo). Fotos armazenadas em cloud storage com acesso público apenas via link direto.</p>
+    <p>Nao vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros para fins de marketing. Seus dados podem ser compartilhados apenas:</p>
+    <ul>
+      <li>Com outros usuarios do app (nome e WhatsApp nos anuncios)</li>
+      <li>Com provedores de infraestrutura (Supabase, Google) para operacao do servico</li>
+      <li>Quando exigido por lei ou ordem judicial</li>
+    </ul>
+
+    <h2>4. Armazenamento e seguranca</h2>
+    <p>Seus dados sao armazenados no Supabase (servidores na regiao de Sao Paulo) com criptografia em transito (HTTPS/TLS) e em repouso. Fotos sao armazenadas em bucket seguro com acesso controlado.</p>
+
     <h2>5. Seus direitos</h2>
-    <p>Você pode solicitar a exclusão da sua conta e todos os dados associados a qualquer momento através do app ou entrando em contato conosco.</p>
-    <h2>6. Contato</h2>
-    <p>Dúvidas sobre privacidade: entre em contato pelo app.</p>
+    <p>Conforme a LGPD (Lei Geral de Protecao de Dados), voce tem direito a:</p>
+    <ul>
+      <li>Acessar seus dados pessoais</li>
+      <li>Corrigir dados incorretos</li>
+      <li>Solicitar a exclusao da sua conta e dados</li>
+      <li>Revogar consentimento a qualquer momento</li>
+    </ul>
+
+    <h2>6. Exclusao de conta</h2>
+    <p>Para excluir sua conta e todos os dados associados, acesse a opcao "Excluir conta" no Perfil do app ou envie um email para <strong>fithyp@gmail.com</strong>.</p>
+
+    <h2>7. Anuncios</h2>
+    <p>O app exibe anuncios do Google AdMob. O Google pode coletar dados anonimos para personalizacao de anuncios conforme sua propria politica de privacidade. Usuarios dos planos Pro e Loja nao visualizam anuncios.</p>
+
+    <h2>8. Menores de idade</h2>
+    <p>O app e destinado a maiores de 18 anos. Nao coletamos intencionalmente dados de menores de idade.</p>
+
+    <h2>9. Alteracoes</h2>
+    <p>Esta politica pode ser atualizada periodicamente. Recomendamos revisa-la regularmente.</p>
+
+    <h2>10. Contato</h2>
+    <p>Para duvidas sobre privacidade: <strong>fithyp@gmail.com</strong></p>
+
+    <div class="footer">
+      <p>&copy; 2026 Vizinho Vende e Doa. Todos os direitos reservados.</p>
+    </div>
   </div>
 </body>
 </html>
